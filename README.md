@@ -23,10 +23,10 @@ ref(1). S S R U S S
 ## step03. remove the duplications with more 'U'
 First, sample 2 will be removed. Secondly, we'll mask the 'U' position and remove once more, so sample 5 will be removed.  
 ref(1). S S R U S S  
-1. - - - * - -  1U  
-3. - - S * - -  2U  
-4. - R - * - -  1U  
-5. - - - * - -  2U  
+1. \- - - * - -  1U  
+3. \- - S * - -  2U  
+4. \- R - * - -  1U  
+5. \- - - * - -  2U  
 
 The result of removing duplications:  
 1. S S R U S S  
