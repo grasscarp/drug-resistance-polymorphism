@@ -14,19 +14,19 @@ ref (1). S S R U S S
 ## step02. call SRP and count 'U' number
 If there is 'U' in ref, we'll keep resistance symbols of all samples at that 'U' position, such as sample 3 and 5.  
 ref (1). S S R U S S  
-1. \- - - - - -  1U  
-2. \- R - - - -  2U  
-3. \- - S S - -  2U  
-4. \- R - - - -  1U  
-5. \- - - R - -  2U  
+1. \- - - - - - , 1U  
+2. \- R - - - - , 2U  
+3. \- - S S - - , 2U  
+4. \- R - - - - , 1U  
+5. \- - - R - - , 2U  
 
 ## step03. remove the duplications with more 'U'
 First, sample 2 will be removed. Secondly, we'll mask the 'U' position and remove once more, so sample 5 will be removed.  
 ref (1). S S R U S S  
-1. \- - - * - -  1U  
-3. \- - S * - -  2U  
-4. \- R - * - -  1U  
-5. \- - - * - -  2U  
+1. \- - - * - - , 1U  
+3. \- - S * - - , 2U  
+4. \- R - * - - , 1U  
+5. \- - - * - - , 2U  
 
 The result of removing duplications:  
 1. S S R U S S  
