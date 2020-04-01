@@ -1,5 +1,6 @@
 # drug-resistance-polymorphism
-Removing duplications by checking single-resistance polymorphism (SRP)
+Removing duplications by checking single-resistance polymorphism (SRP).
+
 
 ## step01. choose the sample with least 'U' ('unknown' or 'unclear') as a ref
 For example, if one patient has 5 samples that got drug resistance test, we choose the first one:
